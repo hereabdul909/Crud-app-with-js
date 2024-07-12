@@ -1,0 +1,51 @@
+:root {
+   --bg-color-light: linear-gradient(100deg, #d4f1ff, #ffffff);
+   --text-color-dark: #000000;
+   --bg-color-dark: linear-gradient(100deg, #575656, #062e3f);
+   --text-color-light: #ffffff;
+   --transition-speed: 0.4s;
+   --input-background-light: #c0c4c8;
+   --input-text-dark: #1a150e;
+   --input-background-dark: #151313;
+   --input-text-light: white;
+   --btn-background-light: #ffffff;
+   --btn-background-dark: #f1e7e6;
+   --todo-background-light: #c0c4c8;
+   --todo-text-dark: #1a150e;
+   --todo-background-dark: #151313;
+   --todo-text-light: white;
+}
+
+.light-theme {
+   background-image: var(--bg-color-light);
+}
+
+.light-theme h1 {
+   color: var(--text-color-dark);
+}
+
+.light-theme #date {
+   color: var(--text-color-dark);
+}
+
+.light-theme .todo-input {
+   background-color: var(--input-background-light);
+   color: var(--input-text-dark);
+}
+
+.light-theme .todo-input:hover {
+   background-color: #d9dcdf;
+}
+
+.light-theme .todo-btn {
+   background-color: var(--btn-background-light);
+}
+
+.light-theme .todo-btn:hover {
+   background-color: #f6f7fa;
+}
+
+.light-theme .todo {
+   background-color: var(--todo-background-light);
+   color: var(--todo-text-dark);
+}
